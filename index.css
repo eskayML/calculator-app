@@ -1,7 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .calculator {
   background: #101010;
   width: 25em;
-  margin: 1.5em auto;
+  margin: 5em auto;
 }
 
 .display {
@@ -47,4 +52,12 @@
 
 .controls .teal:hover {
   background: #006664;
+}
+
+@media screen and (max-width: 768px) {
+  .calculator {
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+  }
 }
